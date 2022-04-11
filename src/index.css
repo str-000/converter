@@ -24,45 +24,41 @@ code {
 	align-items: stretch;
 	align-content: stretch;
   width: 100%;
+  border-bottom: 1px solid black;
 }
 
-.card-button {
-	display: flex;
+.card-button-active, .card-button {
+  display: flex;
   border: none;
+  border-right: 1px solid black;
 	flex-direction: row;
 	flex-wrap: nowrap;
   text-transform: uppercase;
 	justify-content: center;
 	align-items: center;
-  background-color: rgb(184, 241, 222);
-	align-content: center;
+  align-content: center;
   height: 50px;
   padding: 5px;
   cursor: pointer;
   width: 100%;
 }
 
-<<<<<<< Updated upstream
-=======
 .card-button-active {
   background-color: aquamarine;
   font-weight: bold;
-  border-right: 2px solid black;
+
 }
 
 .card-button {
   background-color: rgb(180, 240, 220);
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
 }
 
->>>>>>> Stashed changes
 .card-button:hover {
   background-color: aquamarine;
 }
 
-.card-button:last-child, .card-button-active:last-child{
-  border-right: none; 
+.card-button:last-child {
+  border: none;
 }
 
 .container {
@@ -74,5 +70,5 @@ code {
   transform: translate(-50%,-50%);
   width: 800px;
   height: 600px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
