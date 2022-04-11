@@ -24,13 +24,11 @@ code {
 	align-items: stretch;
 	align-content: stretch;
   width: 100%;
-  border-bottom: 1px solid black;
 }
 
 .card-button {
 	display: flex;
   border: none;
-  border-right: 1px solid black;
 	flex-direction: row;
 	flex-wrap: nowrap;
   text-transform: uppercase;
@@ -44,12 +42,27 @@ code {
   width: 100%;
 }
 
+<<<<<<< Updated upstream
+=======
+.card-button-active {
+  background-color: aquamarine;
+  font-weight: bold;
+  border-right: 2px solid black;
+}
+
+.card-button {
+  background-color: rgb(180, 240, 220);
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+>>>>>>> Stashed changes
 .card-button:hover {
   background-color: aquamarine;
 }
 
-.card-button:last-child {
-  border: none;
+.card-button:last-child, .card-button-active:last-child{
+  border-right: none; 
 }
 
 .container {
@@ -61,5 +74,5 @@ code {
   transform: translate(-50%,-50%);
   width: 800px;
   height: 600px;
-  border: 1px solid black;
+  border: 2px solid black;
 }
