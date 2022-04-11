@@ -27,8 +27,8 @@ code {
   border-bottom: 1px solid black;
 }
 
-.card-button {
-	display: flex;
+.card-button-active, .card-button {
+  display: flex;
   border: none;
   border-right: 1px solid black;
 	flex-direction: row;
@@ -36,12 +36,21 @@ code {
   text-transform: uppercase;
 	justify-content: center;
 	align-items: center;
-  background-color: rgb(184, 241, 222);
-	align-content: center;
+  align-content: center;
   height: 50px;
   padding: 5px;
   cursor: pointer;
   width: 100%;
+}
+
+.card-button-active {
+  background-color: aquamarine;
+  font-weight: bold;
+
+}
+
+.card-button {
+  background-color: rgb(180, 240, 220);
 }
 
 .card-button:hover {
