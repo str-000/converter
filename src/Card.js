@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Row, Col } from 'react-bootstrap';
+import InputForm from './InputForm'
 
 export default function Card() {
     return (
@@ -20,27 +20,7 @@ export default function Card() {
             </div>
 
             <div className='input-container'>
-                <Form>
-                    <Row>
-                        <Col>
-                            <Form.Control />
-                            <Form.Label>Jednostka</Form.Label>
-                            <Form.Select multiple defaultValue="Choose...">
-                                <option>metry [m]</option>
-                                <option>kilometry [km]</option>
-                            </Form.Select>
-                        </Col>
-                        =
-                        <Col>
-                            <Form.Control />
-                            <Form.Label>Jednostka</Form.Label>
-                            <Form.Select multiple defaultValue="Choose...">
-                                <option>metry [m]</option>
-                                <option>kilometry [km]</option>
-                            </Form.Select>
-                        </Col>
-                    </Row>
-                </Form>
+                <InputForm/>
             </div>
         </div>
     )
