@@ -43,6 +43,7 @@ code {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .card-button-active {
   background-color: aquamarine;
   font-weight: bold;
@@ -53,6 +54,8 @@ code {
   background-color: rgb(180, 240, 220);
 }
 
+=======
+>>>>>>> parent of 532f8ab (1)
 .card-button:hover {
   background-color: aquamarine;
 }
